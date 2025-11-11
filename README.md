@@ -4,6 +4,9 @@ Available at: https://drop.lol/
 
 Easy end-to-end encrypted, peer-to-peer file transfer.
 
+```
+docker run -d --restart=always --name=filedrop -p 18880:5000 ghcr.io/ymxkiss/filedrop:latest
+```
 **Features:**
 
 - Fully end-to-end encrypted, including metadata and chat.
